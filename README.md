@@ -35,13 +35,13 @@ All the images will be converted to a numpy array so that the model is able to â
 
 ## Prediction 1 
 ![Image of Prediction 1](https://github.com/victorjongsoon/Image-Recognition/blob/main/Github%20Images/Prediction%201.PNG)
-Through our naked eyes, we can identify this image to be a sushi briefly. Similarly, with the 
+Through our naked eyes, we can identify this image to be a **sushi** briefly. Similarly, with the 
 model, the model can predict this image to be a sushi and the prediction is 99.99% accurate. 
 This shows that the model is very accurate in identifying the images that we have trained.
 
 ## Prediction 2
 ![Image of Prediction 2](https://github.com/victorjongsoon/Image-Recognition/blob/main/Github%20Images/Prediction%202.PNG)
-Through our naked eyes, we might have trouble recognizing this image to be a sushi 
+Through our naked eyes, we might have trouble recognizing this image to be a **sushi** 
 because a typical sushi will not have a cartoon image on the sushi rice. However, if we take 
 a longer time to analyze the image, we can guess that this is a sushi image because of the 
 seaweed surrounding the rice. This is a difficult task for the model because not only of the 
@@ -51,14 +51,23 @@ model to predict. In this case, the model is still able to predict that this ima
 
 ## Prediction 3
 ![Image of Prediction 3](https://github.com/victorjongsoon/Image-Recognition/blob/main/Github%20Images/Prediction%203.PNG)
-Through our naked eyes, we can identify this image to be garlic bread at first glance. 
+Through our naked eyes, we can identify this image to be **garlic bread** at first glance. 
 Similarly, with the model, the model can predict this image to be a garlic bread and the 
 prediction is 99.98% accurate. This shows that the model is very accurate in identifying the 
 images that we have trained.
 
 ## Prediction 4
 ![Image of Prediction 4](https://github.com/victorjongsoon/Image-Recognition/blob/main/Github%20Images/Prediction%204.PNG)
-Through our naked eyes, we can identify this image to be garlic bread at first glance. 
-Similarly, with the model, the model can predict this image to be a garlic bread and the 
-prediction is 99.98% accurate. This shows that the model is very accurate in identifying the 
-images that we have trained.
+Through our naked eyes, we can identify this image to be **miso soup** at first glance. Similarly,
+with the model, the model can predict this image to be a miso soup and the prediction is 
+100% accurate. This shows that the model is very accurate in identifying the images that we 
+have trained.
+
+## Prediction 5
+![Image of Prediction 5](https://github.com/victorjongsoon/Image-Recognition/blob/main/Github%20Images/Prediction%205.PNG)
+Through our naked eyes, we can easily identify this picture to be a bowl of **chicken rice** at 
+first glance. However, because we did not train the model to recognize chicken rice, the 
+prediction of this picture becomes inaccurate. Interestingly, because of the chicken on the 
+chicken rice, the model can predict the closest food that we have trained, which is chicken 
+quesadilla at 94.24% accuracy. It is expected for this prediction to be inaccurate because we 
+did not train the model to recognize chicken rice. 
