@@ -74,7 +74,7 @@ did not train the model to recognize chicken rice.
 
 # What can be improved in this project?
 Here are some suggestions that I can explore more on this food recognition problem for 
-further improvement. 
+further improvement:
 
 Firstly, the time we spent on training the model is long due the 
 complexity of the model and the nature of deep learning. In the future, I can use early 
