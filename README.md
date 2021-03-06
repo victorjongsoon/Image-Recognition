@@ -72,6 +72,29 @@ chicken rice, the model can predict the closest food that we have trained, which
 quesadilla at **94.24%** accuracy. It is expected for this prediction to be inaccurate because we 
 did not train the model to recognize chicken rice. 
 
+# What can be improved in this project?
+Here are some suggestions that I can explore more on this food recognition problem for 
+further improvement. 
+
+Firstly, the time we spent on training the model is long due the 
+complexity of the model and the nature of deep learning. In the future, I can use early 
+stopping to halt the training when overfitting occurs so that I do not have to wait, for 
+example, 500 epochs when overfitting occurs at about 200 epochs. This will save a lot more 
+time and more models could be trained during this time. 
+
+Secondly, the result we got from the 
+Vgg16 model might not necessarily be the best model. Things like unfreezing more or lesser 
+vgg16 blocks can significantly change the accuracy of the model. However, due to time 
+constraints, I only unfreeze the 5th block of the vgg16 model. 
+
+Lastly, we could further 
+improve the model performance by adding bounding boxes to the images. Since some 
+images may contain other food items that is not supposed to be in the food category (e.g. 
+there are sausages beside the garlic bread image), the model might misinterpret the image, 
+resulting in lower accuracy. This noisy element could be eliminated by the use of bounding
+boxes to the images and this could potentially be another possibility of increasing the 
+accuracy of the images
+
 # Skillset required for the project (Deep Learning)
 * Python (Numpy, Pandas etc.)
 * Data Modeling and Evaluation
