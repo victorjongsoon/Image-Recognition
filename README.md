@@ -1,11 +1,11 @@
 # Image Recognition
- This project explores food image classification with convolutional neural networks (CNNs) for better image labelling and classification by dish, which is the foundation to determine the nutritional value of the dish. The objective of this assignment is to, given an image of a dish as the input to the model, output the correct categorization of the food image. The 10 dishes that the model will recognize are beet salad, ceviche, chicken quesadilla, creme brulee, garlic bread, macaroni and cheese, miso soup, pad Thai, shrimp and grits, and sushi.
+ This project explores food image classification with convolutional neural networks (CNNs) for better image labelling and classification by dish, which is the foundation to determine the nutritional value of the dish. The objective of this assignment is to, given an image of a dish as the input to the model, output the correct categorization of the food image. The 10 dishes that the model will recognize are **beet salad, ceviche, chicken quesadilla, creme brulee, garlic bread, macaroni and cheese, miso soup, pad Thai, shrimp and grits, and sushi.**
 
 # Dataset
 The dataset is downlaoded from Kaggle (https://www.kaggle.com/dansbecker/food-101). 
 
 # Approach
-There will be three final models in this Project, one built from scratch, and two built from pre-trained weights learned on a larger image dataset (transfer learning). For the build from scratch model, I will start with 1 convolutional and 1 fully-connected layer. This model will be 
+There will be three final models in this project, one built from scratch, and two built from pre-trained weights learned on a larger image dataset (transfer learning). For the build from scratch model, I will start with 1 convolutional and 1 fully-connected layer. This model will be 
 optimized through the use of network topology, data augmentation, dropout, learning rate, 
 batches and epochs, optimization and loss, and regularization. For the pre-trained model, I 
 will be using Vgg16 and InceptionV3. This pre-trained model will be optimized through data 
