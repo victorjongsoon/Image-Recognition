@@ -1,0 +1,2 @@
+# Image Recognition
+ This project explores food image classification with convolutional neural networks (CNNs) for better image labelling and classification by dish, which is the foundation to determine the nutritional value of the dish. The objective of this assignment is to, given an image of a dish as the input to the model, output the correct categorization of the food image. The 10 dishes that the model will recognize are beet salad, ceviche, chicken quesadilla, creme brulee, garlic bread, macaroni and cheese, miso soup, pad Thai, shrimp and grits, and sushi.
