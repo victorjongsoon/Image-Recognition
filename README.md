@@ -22,7 +22,7 @@ Build from scratch | 16 | 72.50%
 **Vgg16** | **26** | **83%**
 Inception V3 | 35 | 76%
 
-After selecting the best model from each training phase, the best model is the Vgg16 model 
+After selecting the best model from each training phase, the best model is the **Vgg16 model** 
 which yields the highest testing accuracy at **83.00%.** This is 10.50% higher than the build 
 from scratch model and 7% higher than the InceptionV3 model. 
 
