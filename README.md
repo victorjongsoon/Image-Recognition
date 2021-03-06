@@ -71,3 +71,8 @@ prediction of this picture becomes inaccurate. Interestingly, because of the chi
 chicken rice, the model can predict the closest food that we have trained, which is chicken 
 quesadilla at 94.24% accuracy. It is expected for this prediction to be inaccurate because we 
 did not train the model to recognize chicken rice. 
+
+# Skillset required for the project (Deep Learning)
+* Python (Numpy, Pandas etc.)
+* Data Modeling and Evaluation
+* Transfer Learning (Resnet50, Vgg16, InceptionV3 etc.)
